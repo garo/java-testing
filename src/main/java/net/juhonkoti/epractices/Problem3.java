@@ -1,4 +1,4 @@
-package net.juhonkoti.euler;
+package net.juhonkoti.epractices;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

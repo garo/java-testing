@@ -1,4 +1,4 @@
-package net.juhonkoti.euler;
+package net.juhonkoti.epractices;
 
 import org.junit.Test;
 
@@ -12,8 +12,8 @@ public class Problem5Test {
     }
 
     @Test
-    public void printEulerQuestionAnswer() {
-        System.out.println("Question 5: Smallest positive number that is evenly divisible by all of the numbers from 1 to 20: " +
+    public void printQuestionAnswer() {
+        System.out.println("Question 5: " +
                 Problem5.smallestMultiple(20)
         );
     }

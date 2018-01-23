@@ -1,4 +1,4 @@
-package net.juhonkoti.euler;
+package net.juhonkoti.epractices;
 
 public class Problem4 {
 

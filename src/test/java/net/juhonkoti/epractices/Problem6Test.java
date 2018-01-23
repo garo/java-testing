@@ -1,4 +1,4 @@
-package net.juhonkoti.euler;
+package net.juhonkoti.epractices;
 
 import org.junit.Test;
 
@@ -12,7 +12,7 @@ public class Problem6Test {
     }
 
     @Test
-    public void printEulerQuestionAnswer() {
+    public void printQuestionAnswer() {
         System.out.println("Question 6: " +
                 Problem6.sumSquareDifference(100)
         );

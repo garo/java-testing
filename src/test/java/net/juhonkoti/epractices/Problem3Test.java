@@ -1,10 +1,8 @@
-package net.juhonkoti.euler;
+package net.juhonkoti.epractices;
 
-import org.hamcrest.CoreMatchers;
 import org.junit.Test;
 
 import java.math.BigInteger;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -48,9 +46,9 @@ public class Problem3Test {
     }
 
     @Test
-    public void printEulerQuestionAnswer() {
+    public void printQuestionAnswer() {
         List<BigInteger> factors = Problem3.primeFactors(new BigInteger("600851475143"));
-        System.out.println("Question 3: Largest prime factor of the number 600851475143 is: " +
+        System.out.println("Question 3: " +
                 factors.get(factors.size() -1 ));
     }
 }

@@ -1,4 +1,4 @@
-package net.juhonkoti.euler;
+package net.juhonkoti.epractices;
 
 import java.util.ArrayList;
 import java.util.List;

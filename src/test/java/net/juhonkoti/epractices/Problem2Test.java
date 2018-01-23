@@ -1,10 +1,9 @@
-package net.juhonkoti.euler;
+package net.juhonkoti.epractices;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Test;
 
 import java.util.List;
-import java.util.stream.IntStream;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
@@ -20,14 +19,14 @@ public class Problem2Test {
     }
 
     @Test
-    public void testEulerQuestionWorks() {
+    public void testQuestionWorks() {
         int sum = Problem2.eulerQuestion(50);
         assertEquals(sum, 2+8+34);
     }
 
 
     @Test
-    public void printEulerQuestion() {
+    public void printAnswer() {
         System.out.println("Question 2 answer: " + Problem2.eulerQuestion(4000000));
     }
 }

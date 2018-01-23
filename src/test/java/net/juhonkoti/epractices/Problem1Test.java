@@ -1,4 +1,4 @@
-package net.juhonkoti.euler;
+package net.juhonkoti.epractices;
 
 
 import static org.junit.Assert.assertEquals;
@@ -15,8 +15,8 @@ public class Problem1Test {
     }
 
     @Test
-    public void printEulerQuestionResponse() {
-        System.out.println("Question 1: Multiples of 3 or 5 below 1000: " + Problem1.calculateSimple(1000));
+    public void printQuestionResponse() {
+        System.out.println("Question 1: " + Problem1.calculateSimple(1000));
 
     }
 }

@@ -1,4 +1,4 @@
-package net.juhonkoti.euler;
+package net.juhonkoti.epractices;
 
 import org.junit.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -24,8 +24,8 @@ public class Problem4Test {
     }
 
     @Test
-    public void printEulerQuestionResponse() {
-        System.out.println("Question 4: Largest palindrome made from the product of two 3-digit numbers is: " +
+    public void printQuestionResponse() {
+        System.out.println("Question 4: " +
                 Problem4.largestPalindromeProduct(3));
 
     }
