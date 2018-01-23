@@ -13,7 +13,7 @@ public class Problem5Test {
 
     @Test
     public void printEulerQuestionAnswer() {
-        System.out.println("Smallest positive number that is evenly divisible by all of the numbers from 1 to 20: " +
+        System.out.println("Question 5: Smallest positive number that is evenly divisible by all of the numbers from 1 to 20: " +
                 Problem5.smallestMultiple(20)
         );
     }
