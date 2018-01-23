@@ -28,6 +28,6 @@ public class Problem2Test {
 
     @Test
     public void printEulerQuestion() {
-        System.out.println("Euler question 2 answer: " + Problem2.eulerQuestion(4000000));
+        System.out.println("Question 2 answer: " + Problem2.eulerQuestion(4000000));
     }
 }

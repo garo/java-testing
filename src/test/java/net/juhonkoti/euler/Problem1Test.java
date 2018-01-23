@@ -16,7 +16,7 @@ public class Problem1Test {
 
     @Test
     public void printEulerQuestionResponse() {
-        System.out.println("Multiples of 3 or 5 below 1000: " + Problem1.calculateSimple(1000));
+        System.out.println("Question 1: Multiples of 3 or 5 below 1000: " + Problem1.calculateSimple(1000));
 
     }
 }

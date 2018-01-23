@@ -50,7 +50,7 @@ public class Problem3Test {
     @Test
     public void printEulerQuestionAnswer() {
         List<BigInteger> factors = Problem3.primeFactors(new BigInteger("600851475143"));
-        System.out.println("Largest prime factor of the number 600851475143 is: " +
+        System.out.println("Question 3: Largest prime factor of the number 600851475143 is: " +
                 factors.get(factors.size() -1 ));
     }
 }
